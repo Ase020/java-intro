@@ -20,17 +20,17 @@ public class Strings {
         boolean amIHuman = true;
         String formmatedString = String.format("My name is %s, I'm %d years old from %s and I'm an %s weighing %fkgs. 100%c %b", name, age, country, occupation, weight, percenSign, amIHuman);
 
-//        System.out.println("Hello world, I'm " + name + " from " + country + ".");
-//        System.out.println(formmatedString);
+        System.out.println("Hello world, I'm " + name + " from " + country + ".");
+        System.out.println(formmatedString);
 
-//        System.out.println(name.length()); // calculate length of a string
-//        System.out.println(name.isEmpty()); // check if is empty
-//        System.out.println(name.toLowerCase());
+        System.out.println(name.length()); // calculate length of a string
+        System.out.println(name.isEmpty()); // check if is empty
+        System.out.println(name.toLowerCase());
 
         String newStr = "The sky is blue";
 
         System.out.println(newStr.replace("blue", "red"));
-System.out.println(newStr.contains("red"));
+        System.out.println(newStr.contains("red"));
 
     }
 }

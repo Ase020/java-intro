@@ -27,8 +27,14 @@ public class ArraysClass {
         char sortedVowels[] = {'a', 'e', 'i', 'o', 'u'};
 
         char key = 'o';
-       int foundIndex = Arrays.binarySearch(sortedVowels, key);
-       System.out.println(foundIndex); //3
+        int foundIndex = Arrays.binarySearch(sortedVowels, startingIndex, endingIndex, key);
+//       System.out.println(foundIndex); //3
+
+        char fillVowels[] = {'a', 'e', 'i', 'o', 'u'};
+        Arrays.fill(fillVowels, startingIndex, endingIndex, 'x');
+
+        System.out.println(Arrays.toString(fillVowels));  // [a,x,x,x,u]
+
 
     }
 }
